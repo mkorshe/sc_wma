@@ -6,11 +6,14 @@ This project focuses on optimizing the integration of single-cell eQTL summary s
 ## Project Structure
 The project is organized into three main folders:
 
-### Preprocessing: This folder contains scripts for processing and filtering single-cell eQTL summary statistics.
+### 1.Preprocessing 
+This folder contains scripts for processing and filtering single-cell eQTL summary statistics.
 
-### Weighted Metaanalysis: This folder contains scripts for conducting weighted meta-analysis using different sample-size-like parameters.
+### 2.Weighted Metaanalysis
+This folder contains scripts for conducting weighted meta-analysis using different sample-size-like parameters.
 
-### Postprocessing of WMA results: This folder contains scripts for post-processing and visualizing the results of the weighted meta-analysis.
+### 3.Postprocessing of WMA results
+This folder contains scripts for post-processing and visualizing the results of the weighted meta-analysis.
 
 ## Weighted Metaanalysis Concept
 In single-cell studies, the number of donors (sample size) is a common parameter used for conducting meta-analysis. However, there are several other parameters that could be considered as alternatives to the number of donors. For instance, the number of cells per donor or the number of reads per cohort could be tested as alternative parameters for conducting meta-analysis of single-cell summary statistics.
