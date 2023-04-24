@@ -1,6 +1,7 @@
 # sc_wma
 
-***Optimizing integration of single-cell eQTL summary statistic***
+**Optimizing integration of single-cell eQTL summary statistic**
+
 This project focuses on optimizing the integration of single-cell eQTL summary statistics by exploring alternative parameters for meta-analysis besides the number of donors, such as the number of cells per donor or the number of reads per cohort. The main goal of this project is to improve the accuracy and reliability of single-cell eQTL meta-analysis results.
 
 ## Project Structure
