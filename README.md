@@ -6,13 +6,13 @@ This project focuses on optimizing the integration of single-cell eQTL summary s
 ## Project Structure
 The project is organized into three main folders:
 
-### 1.Preprocessing 
+### 1. Preprocessing 
 This folder contains scripts for processing and filtering single-cell eQTL summary statistics.
 
-### 2.Weighted Metaanalysis
+### 2. Weighted Metaanalysis
 This folder contains scripts for conducting weighted meta-analysis using different sample-size-like parameters.
 
-### 3.Postprocessing of WMA results
+### 3. Postprocessing of WMA results
 This folder contains scripts for post-processing and visualizing the results of the weighted meta-analysis.
 
 ## Weighted Metaanalysis Concept
