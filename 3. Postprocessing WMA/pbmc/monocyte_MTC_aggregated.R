@@ -34,6 +34,8 @@ colnames_of_complete_output <- colnames_of_complete_output[colnames_of_complete_
 v2_1m_stats <- read.table('/groups/umcg-franke-scrna/tmp01/projects/sc-eqtlgen-consortium-pipeline/ongoing/wg3-QTL-mapping/WMA_round_II/backup/WMA_round_II/pseudobulk/input/v2_beta_param_eqtlgen_zscore_fdr.tsv',sep='\t',header = T)
 
 
+
+
 # 
  colnames_of_complete_output[colnames_of_complete_output=='ZW_weight_SE'] <- 'ZW_SE'
 colnames_of_complete_output[colnames_of_complete_output=='pvalue_ZW_SE'] <- 'pvalue_SE'
@@ -138,3 +140,4 @@ for(i in weight_columns){
 write.table(sum_tab_A, paste(dir_aggregated, '/output_sumamry/','1_sign_by_B_BH_bulk_',dataset_combo, ".tsv", sep=''), sep = '\t', col.names = T, row.names = F)
 
 }
+

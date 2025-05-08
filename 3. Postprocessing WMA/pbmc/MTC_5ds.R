@@ -63,10 +63,9 @@ summarizing_wma_pbmc <- function(id, qtl_tab_wma,top_QTL,qtlsA_sig,sum_tab){
                          
                          length(unique(qtl_tab_wma[qtl_tab_wma$global_FDR <0.1 & qtl_tab_wma$significant_A  =='1' & qtl_tab_wma$oposite_effect  ==1,]$snp_gene)),
                          dim(qtl_tab_wma)[1]
-                         
+
                          
   )
-  
   
   sum_tab[,id] <- vector_of_results
   
